@@ -17,10 +17,14 @@ header {
   /* position: relative;  */
   z-index: -3;
   overflow-x: hidden;
-  /* opacity:0.7;  */
+ 
 }
 
 .search-area{
     background-color: rgba(192,195,202, 0.7);
-    /* opacity: 0.; */
+ 
+}
+
+#ways{
+  font-family: 'Roboto', sans-serif;
 }
