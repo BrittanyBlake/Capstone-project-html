@@ -25,3 +25,24 @@ header {
 #ways {
   font-family: "Roboto", sans-serif;
 }
+/* MEDIA  */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1025px) {
+  /* queries for ways section on large screen */
+  .ways {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: 1fr repeat(2,1fr);
+    grid-gap: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .ways-title{
+    grid-row: 1;
+    grid-column: 1/span 2;
+  }
+
+}
