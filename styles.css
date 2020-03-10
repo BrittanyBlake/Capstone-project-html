@@ -1,9 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body{
-    font-family: 'Varela Round', sans-serif;
-  }
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+header {
+  background-image: url("images/preschool.jpg");
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative;  */
+  z-index: -3;
+  overflow-x: hidden;
+  /* opacity:0.7;  */
+}
+
+.search-area{
+    background-color: rgba(192,195,202, 0.7);
+    /* opacity: 0.; */
+}
