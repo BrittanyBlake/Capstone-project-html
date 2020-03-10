@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory of Schools search </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory of Schools search</title>
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <!--reset css-->
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <!--main css-->
@@ -15,39 +18,112 @@
     <!--Font Awesome-->
     <script src="./js/all.js"></script>
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
+    <!--nav bar-->
     <nav id="navbar" class="container-fluid navbar bg-danger">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 ">
-                    <div class="col-12 my-3">
-                        <h4 class=" h5 text-white text-center text-md-left"> <i class="fas fa-search-location"></i> buscar academias</h4>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 ">
-                    <div class="col-12 my-3">
-                        <h4 class=" text-white text-center text-md-right d-md-flex justify-content-end align-items-center"> <i class=" mx-3 fas fa-search"></i>  <span class="text-uppercase d-none d-lg-block small">schools</span> <i class=" mx-3 far fa-user"></i><span class="text-uppercase d-none d-lg-block small">About</span> <i class=" mx-3 fas fa-rss"></i><span class="text-uppercase d-none d-lg-block small">blog</span> <i class="  mx-3 fas fa-bars"></i><span class="text-uppercase d-none d-lg-block small">more...</span></h4>
-                    </div>
-                   
-                </div>
-                </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col-12 my-3">
+              <h4 class=" h5  text-center text-md-left">
+                <a href="index.html" class="text-decoration-none text-white">
+                  <i class="fas fa-search-location"> </i>
+                  buscar academias
+                </a>
+              </h4>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col-12 my-3">
+              <h4
+                class=" text-center text-md-right d-md-flex justify-content-end"
+              >
+                <a
+                  href="result.html"
+                  class="text-decoration-none text-white d-md-flex align-items-center"
+                >
+                  <i class=" mx-3 fas fa-search"></i>
+                  <span class="text-uppercase d-none d-lg-block small"
+                    >schools</span
+                  >
+                </a>
+                <a
+                  href="detail.html"
+                  class="text-decoration-none text-white  d-md-flex align-items-center"
+                >
+                  <i class=" mx-3 far fa-user"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >About</span
+                  >
+                </a>
+                <a
+                  href="result.html"
+                  class="text-decoration-none text-white  d-md-flex  align-items-center"
+                >
+                  <i class=" mx-3 fas fa-rss"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >blog</span
+                  >
+                </a>
+                <a
+                  href="index.html"
+                  class="text-decoration-none text-white  d-md-flex  align-items-center"
+                >
+                  <i class="  mx-3 fas fa-bars"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >more...</span
+                  >
+                </a>
+              </h4>
+            </div>
+          </div>
         </div>
-
-        
-
-
+      </div>
     </nav>
+    <!--end of nav bar-->
     <main>
+      <header>
+        <div class="col-12">
+          <div class="row">
+            <div
+              class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 mb-2 pt-5 pb-2"
+            >
+              <h6>buscar academias... discover the best schools in Granada</h6>
+            </div>
+            <div
+              class="col-sm-8 header-text text-uppercase text-dark h5 font-weight-bold search-area p-3 rounded mx-2 mx-md-auto"
+            >
+              <h6 class="py-1 text-left">search by keyword:</h6>
 
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <a href="./result.html" class="text-decoration-none">
+                  <div class="input-group-append d-none d-md-block">
+                    <button class="btn btn-danger rounded">Search</button>
+                  </div>
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-danger  w-100 my-1 d-md-none"
+                >
+                  <a
+                    href="./result.html"
+                    class="text-decoration-none text-white"
+                    >Search</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     </main>
-    <footer>
-
-    </footer>
-
-</body>
-
+    <footer></footer>
+  </body>
 </html>
