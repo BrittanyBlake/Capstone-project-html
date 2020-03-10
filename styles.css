@@ -14,17 +14,14 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative;  */
   z-index: -3;
   overflow-x: hidden;
- 
 }
 
-.search-area{
-    background-color: rgba(192,195,202, 0.7);
- 
+.search-area {
+  background-color: rgba(192, 195, 202, 0.7);
 }
 
-#ways{
-  font-family: 'Roboto', sans-serif;
+#ways {
+  font-family: "Roboto", sans-serif;
 }
