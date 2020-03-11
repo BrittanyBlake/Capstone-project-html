@@ -124,7 +124,7 @@ footer .subscribe-contact-about {
   padding-right: 25px;
 }
 
-.apply-buttons{
+.apply-buttons {
   display: flex;
   justify-content: center;
 }
@@ -236,7 +236,8 @@ footer .subscribe-contact-about {
     grid-column-gap: 20px;
     grid-template-rows: repeat(2, 1fr);
   }
-  /*detail page*/
+
+  /* detail page */
 
   .school-logo {
     width: 15%;
@@ -248,14 +249,17 @@ footer .subscribe-contact-about {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
   }
+
   .form-1 {
     grid-row: 1;
     grid-column: 1;
   }
-  .form-1 {
+
+  .form-2 {
     grid-row: 1;
     grid-column: 2;
   }
+
   .school-contact {
     display: flex;
     justify-content: space-around;
@@ -355,7 +359,8 @@ footer .subscribe-contact-about {
     grid-column-gap: 40px;
     grid-template-rows: repeat(2, 1fr);
   }
-  /*detail page*/
+
+  /* detail page */
   .school-logo {
     width: 10%;
   }
@@ -366,31 +371,32 @@ footer .subscribe-contact-about {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
   }
+
   .form-1 {
     grid-row: 1;
     grid-column: 1;
   }
-  .form-1 {
+
+  .form-2 {
     grid-row: 1;
     grid-column: 2;
   }
+
   .school-contact {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
   }
-  .apply-form, .apply-text {
+
+  .apply-form,
+  .apply-text {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
-
-  
-
-  
 }
 
-/*alt media*/
+/* alt media */
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .first-half,
