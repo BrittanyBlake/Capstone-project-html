@@ -1,223 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Directory of Schools search results</title>
-    <!--Bootstrap-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!--reset css-->
-    <link rel="stylesheet" href="reset.css" type="text/css" />
-    <!--main css-->
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-    <!--Font Awesome-->
-    <script src="./js/all.js"></script>
-    <!--google fonts-->
-  </head>
 
-  <body>
-    <!--nav bar-->
-    <nav id="navbar" class="container-fluid navbar bg-danger">
-      <div class="col-12">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 ">
-            <div class="col-12 my-3">
-              <h4 class=" h5  text-center text-md-left">
-                <a href="index.html" class="text-decoration-none text-white">
-                  <i class="fas fa-search-location"> </i>
-                  buscar academias
-                </a>
-              </h4>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Directory of Schools search results</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!--reset css-->
+  <link rel="stylesheet" href="reset.css" type="text/css" />
+  <!--main css-->
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <!--Font Awesome-->
+  <script src="./js/all.js"></script>
+  <!--google fonts-->
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav id="navbar" class="container-fluid navbar bg-danger">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 ">
+          <div class="col-12 my-3">
+            <h4 class=" h5  text-center text-md-left">
+              <a href="index.html" class="text-decoration-none text-white">
+                <i class="fas fa-search-location"> </i>
+                buscar academias
+              </a>
+            </h4>
           </div>
-          <div class="col-sm-12 col-md-6 ">
-            <div class="col-12 my-3">
-              <h4 class="d-md-flex justify-content-end">
-                <a
-                  href="result.html"
-                  class="text-decoration-none text-white text-center text-md-right d-md-flex align-items-center"
-                >
-                  <i class=" mx-3 fas fa-search"></i>
-                  <span class="text-uppercase d-none d-lg-block small"
-                    >schools</span
-                  >
-                </a>
-                <a
-                  href="#"
-                  class="text-decoration-none text-white text-center text-md-right d-md-flex align-items-center"
-                >
-                  <i class=" mx-3 far fa-user"></i
-                  ><span class="text-uppercase d-none d-lg-block small"
-                    >About</span
-                  >
-                </a>
-                <a
-                  href="#"
-                  class="text-decoration-none text-white text-center text-md-right d-md-flex  align-items-center"
-                >
-                  <i class=" mx-3 fas fa-rss"></i
-                  ><span class="text-uppercase d-none d-lg-block small"
-                    >blog</span
-                  >
-                </a>
-                <a
-                  href="#"
-                  class="text-decoration-none text-white text-center text-md-right d-md-flex  align-items-center"
-                >
-                  <i class="  mx-3 fas fa-bars"></i
-                  ><span class="text-uppercase d-none d-lg-block small"
-                    >more...</span
-                  >
-                </a>
-              </h4>
-            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 ">
+          <div class="col-12 my-3">
+            <h4 class="d-md-flex justify-content-end">
+              <a href="result.html"
+                class="text-decoration-none text-white text-center text-md-right d-md-flex align-items-center">
+                <i class=" mx-3 fas fa-search"></i>
+                <span class="text-uppercase d-none d-lg-block small">schools</span>
+              </a>
+              <a href="#"
+                class="text-decoration-none text-white text-center text-md-right d-md-flex align-items-center">
+                <i class=" mx-3 far fa-user"></i><span class="text-uppercase d-none d-lg-block small">About</span>
+              </a>
+              <a href="#"
+                class="text-decoration-none text-white text-center text-md-right d-md-flex  align-items-center">
+                <i class=" mx-3 fas fa-rss"></i><span class="text-uppercase d-none d-lg-block small">blog</span>
+              </a>
+              <a href="#"
+                class="text-decoration-none text-white text-center text-md-right d-md-flex  align-items-center">
+                <i class="  mx-3 fas fa-bars"></i><span class="text-uppercase d-none d-lg-block small">more...</span>
+              </a>
+            </h4>
           </div>
         </div>
       </div>
-    </nav>
-    <!--end of nav bar-->
+    </div>
+  </nav>
+  <!--end of nav bar-->
+
+  <section id="results" class="results">
     <!--Search area-->
-    <section id="results" class="results">
-      <div
-        class="text-center text-secondary text-capitalize results results-search search-area my-5 pb-4 px-3"
-      >
-        <p class="h4 py-5">filter by name, grade level, type, gender, age:-</p>
-        <div class="results-text">
-          <div
-            class="results-school text-uppercase text-dark font-weight-bold mx-sm-4 mx-md-0 mb-4"
-          >
-            <input
-              class="form-control result-form text-center "
-              type="text"
-              placeholder=" school name:*"
-            />
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-light w-100 dropdown-toggle border text-muted mb-4"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Grade Level
-            </button>
-            <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item text-muted" href="#">Pre-School</a>
-              <a class="dropdown-item text-muted" href="#">Kindergarten</a>
-              <a class="dropdown-item text-muted" href="#">Primary</a>
-              <a class="dropdown-item text-muted" href="#">Secondary</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-light dropdown-toggle w-100 border text-muted mb-4"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Type
-            </button>
-            <div
-              class="dropdown-menu text-muted"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item text-muted" href="#">Public</a>
-              <a class="dropdown-item text-muted" href="#">Private</a>
-              <a class="dropdown-item text-muted" href="#">Charter</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-light dropdown-toggle w-100 border text-muted mb-4"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Gender
-            </button>
-            <div
-              class="dropdown-menu text-muted"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item text-muted" href="#">All Girls</a>
-              <a class="dropdown-item text-muted" href="#">All Boys</a>
-              <a class="dropdown-item text-muted" href="#">Co-Ed</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-light dropdown-toggle w-100 border text-muted mb-4"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Age
-            </button>
-            <div
-              class="dropdown-menu text-muted"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item text-muted" href="#">0-4</a>
-              <a class="dropdown-item text-muted" href="#">5-9</a>
-              <a class="dropdown-item text-muted" href="#">10-14</a>
-              <a class="dropdown-item text-muted" href="#">15-18</a>
-            </div>
+    <div class="text-center text-secondary text-capitalize results results-search search-area my-5 pb-4 px-3">
+      <p class="h4 py-5">filter by name, grade level, type, gender, age:-</p>
+      <div class="results-text">
+        <div class="results-school text-uppercase text-dark font-weight-bold mx-sm-4 mx-md-0 mb-4">
+          <input class="form-control result-form text-center " type="text" placeholder=" school name:*" />
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light w-100 dropdown-toggle border text-muted mb-4" type="button"
+            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Grade Level
+          </button>
+          <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-muted" href="#">Pre-School</a>
+            <a class="dropdown-item text-muted" href="#">Kindergarten</a>
+            <a class="dropdown-item text-muted" href="#">Primary</a>
+            <a class="dropdown-item text-muted" href="#">Secondary</a>
           </div>
         </div>
-        <button type="button" class="btn btn-primary   my-1 ">
-          <a href="./result.html" class="text-decoration-none text-white"
-            >Search</a
-          >
-        </button>
-        <button type="button" class="btn btn-warning  my-1 ">
-          <a href="./result.html" class="text-decoration-none text-white"
-            >Clear Filters</a
-          >
-        </button>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
+            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Type
+          </button>
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-muted" href="#">Public</a>
+            <a class="dropdown-item text-muted" href="#">Private</a>
+            <a class="dropdown-item text-muted" href="#">Charter</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
+            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Gender
+          </button>
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-muted" href="#">All Girls</a>
+            <a class="dropdown-item text-muted" href="#">All Boys</a>
+            <a class="dropdown-item text-muted" href="#">Co-Ed</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
+            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Age
+          </button>
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item text-muted" href="#">0-4</a>
+            <a class="dropdown-item text-muted" href="#">5-9</a>
+            <a class="dropdown-item text-muted" href="#">10-14</a>
+            <a class="dropdown-item text-muted" href="#">15-18</a>
+          </div>
+        </div>
       </div>
-    </section>
-
+      <button type="button" class="btn btn-primary   my-1 ">
+        <a href="#result-schools" class="text-decoration-none text-white">Search</a>
+      </button>
+      <button type="button" class="btn btn-warning  my-1 ">
+        <a href="./result.html" class="text-decoration-none text-white">Clear Filters</a>
+      </button>
+    </div>
     <!--end of search area-->
-    
-
     <!--search results-->
+    <div class="text-center text-secondary results results-search my-5 pb-4 px-3">
+
+      <p class="text-capitalize h3">search results found 6 school(s): </p>
+      <!--single school-->
+      <div id="result-schools" class="results-images">
+        <div class="school-1 mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/architecture-building-campus-clark-hall-207684.jpg" alt="school"
+              class="school-img  img-fluid ">
+          </a>
+
+        </div>
+        <!--single school-->
+        <!--single school-->
+      <!-- <div class="results-images"> -->
+        <div class="school-2  mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/steel-gate-of-brown-brick-building-159490.jpg" alt="school"
+              class="school-img img-fluid ">
+          </a>
+
+        </div>
+        <!--single school-->
+        <!--single school-->
+      <!-- <div class="results-images"> -->
+        <div class="school-3 mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/red-building-with-clock-tower-207692.jpg" alt="school"
+              class="school-img  img-fluid ">
+          </a>
+
+        </div>
+        <!--single school-->
+        <!--single school-->
+      <!-- <div class="results-images"> -->
+        <div class="school-4 mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/building-in-city-against-sky-256490.jpg" alt="school"
+              class="school-img  img-fluid ">
+          </a>
+
+        </div>
+        <!--single school-->
+        <!--single school-->
+      <!-- <div class="results-images"> -->
+        <div class="school-5 mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/brown-black-and-grey-building-under-cumulus-clouds-207729.jpg" alt="school"
+              class="school-img  img-fluid ">
+          </a>
+
+        </div>
+        <!--single school-->
+        <!--single school-->
+      <!-- <div class="results-images"> -->
+        <div class="school-6 mx-sm-4 mx-md-0 mb-4">
+          <a href="detail.html" class="school-link">
+            <img src="./images/architecture-buildings-downtown-outdoors-357271.jpg" alt="school"
+              class="school-img  img-fluid ">
+          </a>
+
+        </div>
+        </div>
+        <!--single school-->
+        <!--end of search results-->
+
+  </section>
 
 
 
-    <!--end of search results-->
 
-    <!--footer-->
-    <!--footer-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+
+
+
+  <!--footer-->
+  <!--footer-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
