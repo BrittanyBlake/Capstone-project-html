@@ -38,6 +38,9 @@ Capstone projects are solo projects at the end of the each of the Microverse Mai
 
 [Live Demo Link](https://brittanyblake.github.io/Capstone-project-html/)
 
+## Video
+
+Feel free to check out this video explaining my project <a href="#"> here </a>
 
 ## Authors
 
