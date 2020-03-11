@@ -36,7 +36,7 @@ Capstone projects are solo projects at the end of the each of the Microverse Mai
 
 ## Live Demo
 
-[Live Demo Link](https://brittanyblake.github.io/newsweek-clone/)
+[Live Demo Link](https://brittanyblake.github.io/Capstone-project-html/)
 
 
 ## Authors
