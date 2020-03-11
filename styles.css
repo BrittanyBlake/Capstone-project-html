@@ -80,30 +80,36 @@ header {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .black h6 {
   padding-top: 10px;
 }
 
-footer .subscribe-contact-about{
+.school-img{
+  width:75%;
+}
+
+footer .subscribe-contact-about {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.subscribe-contact-about .subscribe{
+.subscribe-contact-about .subscribe {
   grid-row: 1;
-  grid-column: 1; 
+  grid-column: 1;
 }
 
- .subscribe input{
+.subscribe input {
   width: 20px;
-} 
+}
 
-.contact{
+.contact {
   grid-row: 2;
   grid-column: 1;
 }
-.about{
+
+.about {
   grid-row: 3;
   grid-column: 1;
 }
@@ -132,6 +138,7 @@ footer .subscribe-contact-about{
     width: 25%;
     margin-left: 120px;
   }
+
   .grey {
     background-color: rgb(151, 165, 166);
     display: flex;
@@ -147,6 +154,7 @@ footer .subscribe-contact-about{
     justify-content: space-between;
     padding: 50px;
   }
+
   .first-half,
   .second-half {
     display: flex;
@@ -175,35 +183,48 @@ footer .subscribe-contact-about{
     padding-left: 10px;
   }
 
-  footer .subscribe-contact-about{
+  footer .subscribe-contact-about {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
-  
-  .subscribe-contact-about .subscribe{
+
+  .subscribe-contact-about .subscribe {
     grid-row: 1;
-    grid-column: 1; 
+    grid-column: 1;
   }
-  
-  .contact{
+
+  .contact {
     grid-row: 1;
     grid-column: 2;
   }
-  .about{
+
+  .about {
     grid-row: 1;
     grid-column: 3;
   }
-/*results page*/
-.results-text{
-  display: flex;
-  justify-content: center;
-}
 
-.dropdown{
-margin-left: 10px;
-}
+  /* results page */
+  .results-text {
+    display: flex;
+    justify-content: center;
+  }
 
+  .dropdown {
+    margin-left: 10px;
+  }
+
+  .school-img{
+    width:100%;
+    height: 100%;
+  } 
+
+  .results-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(2,1fr);
+  }
 
 
 }
@@ -258,40 +279,51 @@ margin-left: 10px;
     width: 25%;
   }
 
-  footer .subscribe-contact-about{
+  footer .subscribe-contact-about {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
-  
-  .subscribe-contact-about .subscribe{
+
+  .subscribe-contact-about .subscribe {
     grid-row: 1;
-    grid-column: 1; 
+    grid-column: 1;
   }
-  
-  .contact{
+
+  .contact {
     grid-row: 1;
     grid-column: 2;
   }
-  .about{
+
+  .about {
     grid-row: 1;
     grid-column: 3;
   }
 
-  /*results page*/
-.results-text{
-  display: flex;
-  justify-content: center;
+  /* results page */
+  .results-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dropdown {
+    margin-left: 10px;
+  }
+
+  .school-img{
+    width:100%;
+    height: 100%;
+  } 
+
+  .results-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    grid-template-rows: repeat(2,1fr);
+  }
 }
 
-.dropdown{
-margin-left: 10px;
-}
-  
-  
-}
-
-@media only screen and (min-width: 1024px) and (max-width:1439px){
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .first-half,
   .second-half {
     display: flex;
@@ -301,6 +333,7 @@ margin-left: 10px;
     border-bottom: 1px solid lightgrey;
     margin-bottom: 30px;
   }
+
   .circle {
     border: 1px solid lightgrey;
     border-radius: 50%;
@@ -313,33 +346,25 @@ margin-left: 10px;
     margin-left: -35px;
     margin-right: -35px;
   }
-  
+
   .black h6 {
     padding-right: 25px;
     padding-left: 25px;
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .first-half,
+  .second-half {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
+  }
 
-@media only screen and (min-width: 1440px){
-  .first-half,
-  .second-half {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    margin-bottom: 30px;
-  }
-  .first-half,
-  .second-half {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    margin-bottom: 30px;
-  }
+
   .circle {
     border: 1px solid lightgrey;
     border-radius: 50%;
@@ -351,10 +376,9 @@ margin-left: 10px;
     margin-left: -35px;
     margin-right: -35px;
   }
-  
+
   .black h6 {
     padding-right: 50px;
     padding-left: 50px;
   }
-} 
-
+}
