@@ -129,9 +129,9 @@ footer .subscribe-contact-about {
   justify-content: center;
 }
 
- li {
+li {
   cursor: pointer;
-  }
+}
 
 
 
@@ -184,7 +184,6 @@ footer .subscribe-contact-about {
     padding-right: 10px;
     padding-left: 10px;
   }
-  
 
   footer .subscribe-contact-about {
     display: grid;
@@ -192,13 +191,10 @@ footer .subscribe-contact-about {
     grid-template-rows: 1fr;
   }
 
-  footer ul{
+  footer ul {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
   }
-  
-
-
 
   .subscribe-contact-about .subscribe {
     grid-row: 1;
@@ -292,8 +288,8 @@ footer .subscribe-contact-about {
   footer ul {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-  
   }
+
   /* queries for colored area */
   .red {
     background-color: rgb(226, 127, 100);
@@ -325,13 +321,11 @@ footer .subscribe-contact-about {
     flex-direction: row;
     padding-top: 10px;
     margin-bottom: 30px;
-    
   }
 
   .black h6 {
     padding-right: 25px;
     padding-left: 25px;
-    
   }
 
   .button-font,
@@ -343,11 +337,7 @@ footer .subscribe-contact-about {
     width: 25%;
   }
 
-  footer .subscribe-contact-about {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-  }
+
 
   .subscribe-contact-about .subscribe {
     grid-row: 1;
@@ -421,4 +411,3 @@ footer .subscribe-contact-about {
     margin-right: auto;
   }
 }
-
