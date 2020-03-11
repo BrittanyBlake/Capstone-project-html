@@ -194,6 +194,18 @@ footer .subscribe-contact-about{
     grid-row: 1;
     grid-column: 3;
   }
+/*results page*/
+.results-text{
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown{
+margin-left: 10px;
+}
+
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -265,6 +277,16 @@ footer .subscribe-contact-about{
     grid-row: 1;
     grid-column: 3;
   }
+
+  /*results page*/
+.results-text{
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown{
+margin-left: 10px;
+}
   
   
 }
