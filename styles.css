@@ -129,6 +129,10 @@ footer .subscribe-contact-about {
   justify-content: center;
 }
 
+ li {
+  cursor: pointer;
+  }
+
 
 
 /* MEDIA  */
@@ -191,7 +195,6 @@ footer .subscribe-contact-about {
   footer ul{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-  
   }
   
 
@@ -286,7 +289,7 @@ footer .subscribe-contact-about {
     grid-template-rows: 1fr;
   }
 
-  footer ul{
+  footer ul {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
   
