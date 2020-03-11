@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Directory of Schools search</title>
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <!--reset css-->
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <!--main css-->
@@ -15,177 +18,364 @@
     <!--Font Awesome-->
     <script src="./js/all.js"></script>
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!--nav bar-->
     <nav id="navbar" class="container-fluid navbar bg-danger">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 ">
-                    <div class="col-12 my-3">
-                        <h4 class=" h5  text-center text-md-left">
-                            <a href="index.html" class="text-decoration-none text-white">
-                                <i class="fas fa-search-location"> </i>
-                                buscar academias
-                            </a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 ">
-                    <div class="col-12 my-3">
-                        <h4 class=" text-center text-md-right d-md-flex justify-content-end">
-                            <a href="result.html" class="text-decoration-none text-white d-md-flex align-items-center">
-                                <i class=" mx-3 fas fa-search"></i>
-                                <span class="text-uppercase d-none d-lg-block small">schools</span>
-                            </a>
-                            <a href="detail.html" class="text-decoration-none text-white  d-md-flex align-items-center">
-                                <i class=" mx-3 far fa-user"></i><span
-                                    class="text-uppercase d-none d-lg-block small">About</span>
-                            </a>
-                            <a href="result.html"
-                                class="text-decoration-none text-white  d-md-flex  align-items-center">
-                                <i class=" mx-3 fas fa-rss"></i><span
-                                    class="text-uppercase d-none d-lg-block small">blog</span>
-                            </a>
-                            <a href="index.html" class="text-decoration-none text-white  d-md-flex  align-items-center">
-                                <i class="  mx-3 fas fa-bars"></i><span
-                                    class="text-uppercase d-none d-lg-block small">more...</span>
-                            </a>
-                        </h4>
-                    </div>
-                </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col-12 my-3">
+              <h4 class=" h5  text-center text-md-left">
+                <a href="index.html" class="text-decoration-none text-white">
+                  <i class="fas fa-search-location"> </i>
+                  buscar academias
+                </a>
+              </h4>
             </div>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <div class="col-12 my-3">
+              <h4
+                class=" text-center text-md-right d-md-flex justify-content-end"
+              >
+                <a
+                  href="result.html"
+                  class="text-decoration-none text-white d-md-flex align-items-center"
+                >
+                  <i class=" mx-3 fas fa-search"></i>
+                  <span class="text-uppercase d-none d-lg-block small"
+                    >schools</span
+                  >
+                </a>
+                <a
+                  href="detail.html"
+                  class="text-decoration-none text-white  d-md-flex align-items-center"
+                >
+                  <i class=" mx-3 far fa-user"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >About</span
+                  >
+                </a>
+                <a
+                  href="result.html"
+                  class="text-decoration-none text-white  d-md-flex  align-items-center"
+                >
+                  <i class=" mx-3 fas fa-rss"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >blog</span
+                  >
+                </a>
+                <a
+                  href="index.html"
+                  class="text-decoration-none text-white  d-md-flex  align-items-center"
+                >
+                  <i class="  mx-3 fas fa-bars"></i
+                  ><span class="text-uppercase d-none d-lg-block small"
+                    >more...</span
+                  >
+                </a>
+              </h4>
+            </div>
+          </div>
         </div>
+      </div>
     </nav>
     <!--end of nav bar-->
     <main>
-        <!--start of header-->
-        <header>
-            <div class="col-12">
-                <div class="row">
-                    <div
-                        class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 mb-2 pt-5 pb-2">
-                        <h6>buscar academias... discover the best schools in Granada</h6>
-                    </div>
-                    <div
-                        class="col-sm-8 header-text text-uppercase text-dark h5 font-weight-bold search-area p-3 rounded mx-2 mx-md-auto ">
-                        <h6 class="py-1 text-left">search by keyword:</h6>
+      <!--start of header-->
+      <header>
+        <div class="col-12">
+          <div class="row">
+            <div
+              class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 mb-2 pt-5 pb-2"
+            >
+              <h6>buscar academias... discover the best schools in Granada</h6>
+            </div>
+            <div
+              class="col-sm-8 header-text text-uppercase text-dark h5 font-weight-bold search-area p-3 rounded mx-2 mx-md-auto "
+            >
+              <h6 class="py-1 text-left">search by keyword:</h6>
 
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" />
-                            <a href="./result.html" class="text-decoration-none">
-                                <div class="input-group-append d-none d-md-block">
-                                    <button class="btn btn-danger rounded">Search</button>
-                                </div>
-                            </a>
-                            <button type="button" class="btn btn-danger  w-100 my-1 d-md-none">
-                                <a href="./result.html" class="text-decoration-none text-white">Search</a>
-                            </button>
-                        </div>
-                    </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" />
+                <a href="./result.html" class="text-decoration-none">
+                  <div class="input-group-append d-none d-md-block">
+                    <button class="btn btn-danger rounded">Search</button>
+                  </div>
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-danger  w-100 my-1 d-md-none"
+                >
+                  <a
+                    href="./result.html"
+                    class="text-decoration-none text-white"
+                    >Search</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 pt-2"
+          >
+            <a href="#ways" class="text-decoration-none"
+              ><button
+                type="button"
+                class="btn search-area text-dark font-weight-bold rounded "
+              >
+                How it works
+              </button></a
+            >
+          </div>
+        </div>
+      </header>
+      <!--end of header-->
+      <!--start of 4 ways section-->
+      <section id="ways" class="ways text-center mb-5 pb-5">
+        <h6 class="text-danger text-uppercase font-weight-bold ways-title pt-5">
+          buscar academias works in four simple steps:
+        </h6>
+        <div class="way-1 text-dark mx-4 px-md-5 pb-3">
+          <i class="far fa-newspaper fa-2x"></i>
+          <h5 class=" text-uppercase font-weight-bold py-2">1-search:</h5>
+          <p class="text-capitalize font-weight-thin">
+            It's simple. On buscar academia's homepage, enter the name of a
+            school you are looking for and click on search. alternatively, click
+            on the search link on the top menu to view the list of all schools.
+          </p>
+        </div>
+        <div class="way-2 text-dark mx-4 px-md-5 pb-3">
+          <i class="fas fa-map-marked-alt fa-2x"></i>
+          <h5 class=" text-uppercase font-weight-bold py-2">2-Locate:</h5>
+          <p class="text-capitalize font-weight-thin">
+            get to see where hte school is located by clicking on the school
+            profile. it's even more exciting. you can get the directions from
+            anywhere in the country
+          </p>
+        </div>
+        <div class="way-3 text-dark mx-4 px-md-5 py-3">
+          <i class="far fa-file-alt fa-2x"></i>
+          <h5 class=" text-uppercase font-weight-bold py-2">3-Apply:</h5>
+          <p class="text-capitalize font-weight-thin">
+            apply for your child's interview to the school of your choice. click
+            on the APPLY button to get the application form. we also follow up
+            on the application to make sure you get a reply on time.
+          </p>
+        </div>
+        <div class="way-4 text-dark mx-4 px-md-5 py-3 ">
+          <i class="fas fa-umbrella-beach fa-2x"></i>
+          <h5 class=" text-uppercase font-weight-bold py-2">4-Relax:</h5>
+          <p class="text-capitalize font-weight-thin">
+            once your child gets admitted, you can now relax. you can check out
+            our blog to see what we recommend when school hunting.
+          </p>
+        </div>
+      </section>
+      <!--end of 4 ways section-->
+      <section id="above-footer" class="above-footer">
+        <!--single colored area-->
+        <div class="above-footer red">
+          <img
+            src="./images/close-up-photo-of-assorted-color-of-push-pins-on-map-1078850.jpg"
+            alt="image"
+            class="red-image rounded-circle img-fluid"
+          />
+          <div class="text-left">
+            <h6 class="text-white font-weight-bold red-font">
+              Over 10,000 schools registered with us
+            </h6>
+            <p class="text-white red-font">
+              Find a schoool by using our filtered search engine
+            </p>
+            <a href="result.html" class="text-decoration-none"
+              ><button
+                type="button"
+                class="btn btn-light button-font font-weight-bold rounded text"
+              >
+                Find a school
+              </button></a
+            >
+          </div>
+        </div>
+        <!--end of single colored area-->
+        <!--single colored area-->
+        <div class="above-footer grey">
+          <img
+            src="./images/people-in-train-2706436.jpg"
+            alt="image"
+            class="red-image rounded-circle img-fluid"
+          />
+          <div class="text-left">
+            <h6 class="text-white font-weight-bold red-font">
+              No need to spend an hour in transit to find a school in the
+              country
+            </h6>
+            <p class="text-white red-font">
+              Just press or click on the search button and You're all set
+            </p>
+            <a href="result.html" class="text-decoration-none"
+              ><button
+                type="button"
+                class="btn btn-light button-font-grey font-weight-bold rounded text"
+              >
+                Find a school near you
+              </button></a
+            >
+          </div>
+        </div>
+        <!--end of single colored area-->
+        <!--single colored area-->
+        <div class="above-footer blue">
+          <img
+            src="./images/black-iphone-4-turned-on-displaying-icons-3850262.jpg"
+            alt="image"
+            class="red-image rounded img-fluid"
+          />
+          <div class="text-left">
+            <h6 class="text-white font-weight-bold red-font">
+              No need to spend an hour in transit to find a school in the
+              country
+            </h6>
+            <p class="text-white red-font">
+              Just press or click on the search button and You're all set
+            </p>
+          </div>
+        </div>
+        <!--end of single colored area-->
+        <!--single colored area-->
+        <div class=" above-footer black bg-dark py-5">
+          <div class="first-half text-center">
+            <h6>
+              <a
+                href="index.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                Home
+              </a>
+            </h6>
+            <h6>
+              <a
+                href="result.html"
+                class="  text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                search
+              </a>
+            </h6>
+            <h6>
+              <a
+                href="index.html"
+                class="  text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                about</a
+              >
+            </h6>
+            <h6>
+              <a
+                href="index.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                advertise
+              </a>
+            </h6>
+          </div>
+          <h6 class="text-white circle">
+            <i class="fa-3x fas fa-search-location"> </i>
+          </h6>
+          <div class="second-half text-center">
+            <h6>
+              <a
+                href="index.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                facebook
+              </a>
+            </h6>
+            <h6>
+              <a
+                href="index.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                twitter
+              </a>
+            </h6>
+            <h6>
+              <a
+                href="result.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                blog</a
+              >
+            </h6>
+            <h6>
+              <a
+                href="index.html"
+                class=" text-decoration-none text-white text-uppercase font-weight-bold"
+              >
+                google +
+              </a>
+            </h6>
+          </div>
+        </div>
 
-                </div>
-                <div
-                    class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 pt-2">
-                    <button type="button" class="btn search-area text-dark font-weight-bold rounded "> How it
-                        works</button>
-                </div>
-            </div>
-        </header>
-        <!--end of header-->
-        <!--start of 4 ways section-->
-        <section id="ways" class="ways text-center">
-            <h6 class="text-danger text-uppercase font-weight-bold ways-title pt-5"> buscar academias works in four
-                simple
-                steps:</h6>
-            <div class="way-1 text-dark mx-4 px-md-5 py-3">
-                <i class="far fa-newspaper fa-2x"></i>
-                <h5 class=" text-uppercase font-weight-bold py-2">1-search: </h5>
-                <p class="text-capitalize font-weight-thin"> It's simple. On buscar academia's homepage, enter the name
-                    of a school you
-                    are looking for and click on search. alternatively, click on the search link on the top menu to view
-                    the list of all schools. </p>
-            </div>
-            <div class="way-2 text-dark mx-4 px-md-5 py-3">
-                <i class="fas fa-map-marked-alt fa-2x"></i>
-                <h5 class=" text-uppercase font-weight-bold py-2">2-Locate: </h5>
-                <p class="text-capitalize font-weight-thin"> get to see where hte school is located by clicking on the
-                    school profile. it's even more exciting. you can get the directions from anywhere in the country
-                </p>
-            </div>
-            <div class="way-3 text-dark mx-4 px-md-5 py-3">
-                <i class="far fa-file-alt fa-2x"></i>
-                <h5 class=" text-uppercase font-weight-bold py-2">3-Apply: </h5>
-                <p class="text-capitalize font-weight-thin"> apply for your child's interview to the school of your
-                    choice. click on the APPLY button to get the application form. we also follow up on the application
-                    to make sure you get a reply on time. </p>
-            </div>
-            <div class="way-4 text-dark mx-4 px-md-5 py-3">
-                <i class="fas fa-umbrella-beach fa-2x"></i>
-                <h5 class=" text-uppercase font-weight-bold py-2">4-Relax: </h5>
-                <p class="text-capitalize font-weight-thin"> once your child gets admitted, you can now relax. you can
-                    check out our blog to see what we recommend when school hunting. </p>
-            </div>
-        </section>
-        <!--end of 4 ways section-->
-        <section id="above-footer" class="above-footer">
-            <!--single colored area-->
-            <div class="above-footer red">
-                <img src="./images/close-up-photo-of-assorted-color-of-push-pins-on-map-1078850.jpg" alt="image"
-                    class="red-image rounded-circle img-fluid">
-                <div class="text-left">
-                    <h6 class="text-white font-weight-bold red-font">
-                        Over 10,000 schools registered with us
-                    </h6>
-                    <p class="text-white red-font">
-                        Find a schoool by using our filtered search engine
-                    </p>
-                    <a href="result.html" class="text-decoration-none"><button type="button" class="btn btn-light button-font font-weight-bold rounded text"> Find a
-                        school</button></a>
-                </div>
-                   
-            </div>
-            <!--end of single colored area-->
-            <!--single colored area-->
-            <div class="above-footer grey">
-                <img src="./images/people-in-train-2706436.jpg" alt="image"
-                    class="red-image rounded-circle img-fluid">
-                <div class="text-left">
-                    <h6 class="text-white font-weight-bold red-font">
-                        No need to spend an hour in transit to find a school in the country
-                    </h6>
-                    <p class="text-white red-font">
-                        Just press or click on the search button and You're all set
-                    </p>
-                    <a href="result.html" class="text-decoration-none"><button type="button" class="btn btn-light button-font-grey font-weight-bold rounded text">  Find a
-                        school near you</button></a>
-                </div>
-                   
-            </div>
-            <!--end of single colored area-->
-             <!--single colored area-->
-             <div class="above-footer blue">
-                <img src="./images/black-iphone-4-turned-on-displaying-icons-3850262.jpg" alt="image"
-                    class="red-image rounded img-fluid">
-                <div class="text-left">
-                    <h6 class="text-white font-weight-bold red-font">
-                        No need to spend an hour in transit to find a school in the country
-                    </h6>
-                    <p class="text-white red-font">
-                        Just press or click on the search button and You're all set
-                    </p>
-                </div>
-                   
-            </div>
-            <!--end of single colored area-->
-
-        </section>
-
+        <!--end of single colored area-->
+      </section>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <div class=" above-footer bg-dark py-5">
+        <div class="subscribe-contact-about text-center">
+          <div class="subscribe text-uppercase text-white font-weight-bold">
+            <h4 class="text-center">subscribe</h4>
+            <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control "
+                  placeholder="email address"
+                />
+                <a href="#" class="text-decoration-none">
+                  <div class="input-group-append d-none d-md-block">
+                    <button class="btn btn-secondary rounded">send</button>
+                  </div>
+                </a>
+              </div>
+          </div>
+          
+        </div>
 
+        <div class="subscribe-contact-about text-center ">
+          <div class="contact  text-white">
+            <h4 class="contact-head text-uppercase font-weight-bold">
+              contact
+            </h4>
+            <p class="contact-text text-capitalize font-weight-light">
+              have a question or suggestion?
+              <span class="text-danger"> info@buscar.academias.com </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="subscribe-contact-about text-center ">
+          <div class="about  text-white">
+            <h4 class="contact-head text-uppercase font-weight-bold">about</h4>
+            <p class="contact-text text-capitalize font-weight-light">
+              buscar academias is an online platform that assists expats in
+              finding suitable schools for their children by searching using the
+              criteria: province, grade, curriculum, etc.
+              <span class="text-danger"> learn more... </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
