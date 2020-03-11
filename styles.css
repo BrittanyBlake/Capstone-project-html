@@ -114,6 +114,10 @@ footer .subscribe-contact-about {
   grid-column: 1;
 }
 
+.school-logo{
+  width: 20%;
+}
+
 
 
 
@@ -225,7 +229,27 @@ footer .subscribe-contact-about {
     grid-column-gap: 20px;
     grid-template-rows: repeat(2,1fr);
   }
+  /*detail page*/
 
+  .features-school{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 20px;
+  }
+  .form-1{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .form-1{
+    grid-row: 1;
+    grid-column: 2;
+  }
+.school-contact{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
 
 }
 
@@ -321,7 +345,32 @@ footer .subscribe-contact-about {
     grid-column-gap: 40px;
     grid-template-rows: repeat(2,1fr);
   }
+  /*detail page*/
+
+  .features-school{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 20px;
+  }
+  .form-1{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .form-1{
+    grid-row: 1;
+    grid-column: 2;
+  }
+.school-contact{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
 }
+
+}
+
+
+/*alt media*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .first-half,
