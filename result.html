@@ -19,7 +19,7 @@
 
 <body>
   <!--nav bar-->
-  <nav id="navbar" class="container-fluid navbar bg-danger">
+  <nav id="navbar" class="container-fluid navbar bg-danger sticky-top">
     <div class="col-12">
       <div class="row">
         <div class="col-sm-12 col-md-6 ">
@@ -63,17 +63,17 @@
   <section id="results" class="results">
     <!--Search area-->
     <div class="text-center text-secondary text-capitalize results results-search search-area my-5 pb-4 px-3">
-      <p class="h4 py-5">filter by name, grade level, type, gender, age:-</p>
+      <h4 class="h4 py-5">filter by name, grade level, type, gender, age:-</h4>
       <div class="results-text">
         <div class="results-school text-uppercase text-dark font-weight-bold mx-sm-4 mx-md-0 mb-4">
           <input class="form-control result-form text-center " type="text" placeholder=" school name:*" />
         </div>
         <div class="dropdown">
           <button class="btn btn-light w-100 dropdown-toggle border text-muted mb-4" type="button"
-            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            id="dropdownMenuButton-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Grade Level
           </button>
-          <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-menu " aria-labelledby="dropdownMenuButton-1">
             <a class="dropdown-item text-muted" href="#">Pre-School</a>
             <a class="dropdown-item text-muted" href="#">Kindergarten</a>
             <a class="dropdown-item text-muted" href="#">Primary</a>
@@ -82,10 +82,10 @@
         </div>
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
-            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Type
           </button>
-          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton-2">
             <a class="dropdown-item text-muted" href="#">Public</a>
             <a class="dropdown-item text-muted" href="#">Private</a>
             <a class="dropdown-item text-muted" href="#">Charter</a>
@@ -93,10 +93,10 @@
         </div>
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
-            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            id="dropdownMenuButton-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Gender
           </button>
-          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton-3">
             <a class="dropdown-item text-muted" href="#">All Girls</a>
             <a class="dropdown-item text-muted" href="#">All Boys</a>
             <a class="dropdown-item text-muted" href="#">Co-Ed</a>
@@ -104,10 +104,10 @@
         </div>
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle w-100 border text-muted mb-4" type="button"
-            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            id="dropdownMenuButton-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Age
           </button>
-          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-menu text-muted" aria-labelledby="dropdownMenuButton-4">
             <a class="dropdown-item text-muted" href="#">0-4</a>
             <a class="dropdown-item text-muted" href="#">5-9</a>
             <a class="dropdown-item text-muted" href="#">10-14</a>
@@ -115,11 +115,11 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-primary   my-1 ">
-        <a href="#result-schools" class="text-decoration-none text-white">Search</a>
-      </button>
-      <button type="button" class="btn btn-warning  my-1 ">
-        <a href="./result.html" class="text-decoration-none text-white">Clear Filters</a>
+      
+        <a href="#result-schools" class="btn btn-primary my-1 text-decoration-none text-white" role="button">Search</a>
+     
+      <button type="button" class="btn btn-warning text-white my-1 ">
+        Clear Filters
       </button>
     </div>
     <!--end of search area-->
@@ -189,6 +189,7 @@
         </div>
         <!--single school-->
         <!--end of search results-->
+        </div>
 
   </section>
 
