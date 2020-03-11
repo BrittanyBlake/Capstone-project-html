@@ -115,7 +115,7 @@ footer .subscribe-contact-about {
 }
 
 .school-logo{
-  width: 20%;
+  width: 30%;
 }
 
 
@@ -230,6 +230,10 @@ footer .subscribe-contact-about {
     grid-template-rows: repeat(2,1fr);
   }
   /*detail page*/
+
+  .school-logo{
+    width: 15%;
+  }
 
   .features-school{
     display: grid;
@@ -346,6 +350,9 @@ footer .subscribe-contact-about {
     grid-template-rows: repeat(2,1fr);
   }
   /*detail page*/
+  .school-logo{
+    width: 10%;
+  }
 
   .features-school{
     display: grid;
