@@ -85,8 +85,8 @@ header {
   padding-top: 10px;
 }
 
-.school-img{
-  width:75%;
+.school-img {
+  width: 75%;
 }
 
 footer .subscribe-contact-about {
@@ -114,13 +114,20 @@ footer .subscribe-contact-about {
   grid-column: 1;
 }
 
-.school-logo{
+.school-logo {
   width: 30%;
 }
 
+.apply-form {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
-
-
+.apply-buttons{
+  display: flex;
+  justify-content: center;
+}
 
 /* MEDIA  */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -218,43 +225,42 @@ footer .subscribe-contact-about {
     margin-left: 10px;
   }
 
-  .school-img{
-    width:100%;
+  .school-img {
+    width: 100%;
     height: 100%;
-  } 
+  }
 
-  .results-images{
+  .results-images {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   /*detail page*/
 
-  .school-logo{
+  .school-logo {
     width: 15%;
   }
 
-  .features-school{
+  .features-school {
     display: grid;
     grid-template-columns: 2;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
   }
-  .form-1{
+  .form-1 {
     grid-row: 1;
     grid-column: 1;
   }
-  .form-1{
+  .form-1 {
     grid-row: 1;
     grid-column: 2;
   }
-.school-contact{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;
-}
-
+  .school-contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -338,44 +344,51 @@ footer .subscribe-contact-about {
     margin-left: 10px;
   }
 
-  .school-img{
-    width:100%;
+  .school-img {
+    width: 100%;
     height: 100%;
-  } 
+  }
 
-  .results-images{
+  .results-images {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 40px;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   /*detail page*/
-  .school-logo{
+  .school-logo {
     width: 10%;
   }
 
-  .features-school{
+  .features-school {
     display: grid;
     grid-template-columns: 2;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
   }
-  .form-1{
+  .form-1 {
     grid-row: 1;
     grid-column: 1;
   }
-  .form-1{
+  .form-1 {
     grid-row: 1;
     grid-column: 2;
   }
-.school-contact{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;
-}
+  .school-contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .apply-form, .apply-text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-}
+  
 
+  
+}
 
 /*alt media*/
 
@@ -419,7 +432,6 @@ footer .subscribe-contact-about {
     border-bottom: 1px solid lightgrey;
     margin-bottom: 30px;
   }
-
 
   .circle {
     border: 1px solid lightgrey;
