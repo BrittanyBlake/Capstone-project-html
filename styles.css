@@ -129,6 +129,8 @@ footer .subscribe-contact-about {
   justify-content: center;
 }
 
+
+
 /* MEDIA  */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* queries for colored area */
@@ -171,34 +173,29 @@ footer .subscribe-contact-about {
     display: flex;
     flex-direction: row;
     padding-top: 10px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
     margin-bottom: 30px;
-  }
-
-  .circle {
-    border: 1px solid lightgrey;
-    border-radius: 50%;
-    width: 95px;
-    height: 95px;
-    z-index: 3;
-    margin-top: -20px;
-    padding-top: 20px;
-    text-align: center;
-    margin-left: -15px;
-    margin-right: -15px;
   }
 
   .black h6 {
     padding-right: 10px;
     padding-left: 10px;
   }
+  
 
   footer .subscribe-contact-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
+
+  footer ul{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+  
+  }
+  
+
+
 
   .subscribe-contact-about .subscribe {
     grid-row: 1;
@@ -283,6 +280,17 @@ footer .subscribe-contact-about {
     grid-column: 1 / span 2;
   }
 
+  footer .subscribe-contact-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  footer ul{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+  
+  }
   /* queries for colored area */
   .red {
     background-color: rgb(226, 127, 100);
@@ -306,6 +314,21 @@ footer .subscribe-contact-about {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 50px;
+  }
+
+  .first-half,
+  .second-half {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+  }
+
+  .black h6 {
+    padding-right: 25px;
+    padding-left: 25px;
+    
   }
 
   .button-font,
@@ -396,63 +419,3 @@ footer .subscribe-contact-about {
   }
 }
 
-/* alt media */
-
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .first-half,
-  .second-half {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    margin-bottom: 30px;
-  }
-
-  .circle {
-    border: 1px solid lightgrey;
-    border-radius: 50%;
-    width: 95px;
-    height: 95px;
-    z-index: 3;
-    margin-top: -20px;
-    padding-top: 20px;
-    text-align: center;
-    margin-left: -35px;
-    margin-right: -35px;
-  }
-
-  .black h6 {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .first-half,
-  .second-half {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-    margin-bottom: 30px;
-  }
-
-  .circle {
-    border: 1px solid lightgrey;
-    border-radius: 50%;
-    width: 95px;
-    height: 95px;
-    margin-top: -20px;
-    padding-top: 20px;
-    text-align: center;
-    margin-left: -35px;
-    margin-right: -35px;
-  }
-
-  .black h6 {
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-}
