@@ -137,15 +137,15 @@ li {
   cursor: pointer;
 }
 
-#ways,  #apply { 
+#ways,
+#apply {
   scroll-behavior: smooth;
-  scroll-margin-top: 88px; 
-  
+  scroll-margin-top: 88px;
 }
 
-#result-schools{
+#result-schools {
   scroll-behavior: smooth;
-  scroll-margin-top: 115px; 
+  scroll-margin-top: 115px;
 }
 
 /* MEDIA  */
@@ -249,8 +249,6 @@ li {
     grid-column-gap: 20px;
     grid-template-rows: repeat(2, 1fr);
   }
-
-  
 
   /* detail page */
 
