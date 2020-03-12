@@ -52,6 +52,10 @@ header {
   width: 50%;
 }
 
+.image-circle {
+  height: 128px;
+}
+
 .grey {
   background-color: rgb(151, 165, 166);
   display: flex;
@@ -133,8 +137,6 @@ li {
   cursor: pointer;
 }
 
-
-
 /* MEDIA  */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* queries for colored area */
@@ -209,6 +211,10 @@ li {
   .about {
     grid-row: 1;
     grid-column: 3;
+  }
+
+  .image-circle {
+    height: 150px;
   }
 
   /* results page */
@@ -290,6 +296,10 @@ li {
     grid-template-columns: 2fr 1fr 2fr;
   }
 
+  .image-circle {
+    height: 280px;
+  }
+
   /* queries for colored area */
   .red {
     background-color: rgb(226, 127, 100);
@@ -336,8 +346,6 @@ li {
   .red-image {
     width: 25%;
   }
-
-
 
   .subscribe-contact-about .subscribe {
     grid-row: 1;
