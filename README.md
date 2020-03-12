@@ -10,23 +10,23 @@ Capstone projects are solo projects at the end of the each of the Microverse Mai
 
 # Mobile Version of Main Page
 
-![screenshot](images/mobile-home.png)
+![screenshot](assets/images/mobile-home.png)
 
 # Desktop Version of Search Results Page
 
-![screenshot](images/search-results.png)
+![screenshot](assets/images/search-results.png)
 
 # Mobile Version of Search Results Page
 
-![screenshot](images/mobile-search.png)
+![screenshot](assets/images/mobile-search.png)
 
 # Desktop Version of Detail School Page
 
-![screenshot](images/detail.png)
+![screenshot](assets/images/detail.png)
 
 # Mobile Version of Detail School Page
 
-![screenshot](images/mobile-detail.png)
+![screenshot](assets/images/mobile-detail.png)
 
 ## Built With
 
