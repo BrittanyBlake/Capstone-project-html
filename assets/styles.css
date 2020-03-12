@@ -137,6 +137,17 @@ li {
   cursor: pointer;
 }
 
+#ways,  #apply { 
+  scroll-behavior: smooth;
+  scroll-margin-top: 88px; 
+  
+}
+
+#result-schools{
+  scroll-behavior: smooth;
+  scroll-margin-top: 115px; 
+}
+
 /* MEDIA  */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* queries for colored area */
@@ -238,6 +249,8 @@ li {
     grid-column-gap: 20px;
     grid-template-rows: repeat(2, 1fr);
   }
+
+  
 
   /* detail page */
 
